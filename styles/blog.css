@@ -51,6 +51,7 @@ body {
 
 .content-pic {
     display: flex;
+    justify-content: space-around;
 }
 
 .pic-1 {
@@ -63,7 +64,6 @@ body {
 }
 
 .pic-2 {
-    margin-right: 778px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 117px 47px 51px 47px;
@@ -71,21 +71,20 @@ body {
 }
 
 .pic-3 {
-    margin-right: 240px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 67px 75px 0 75px;
+    padding: 67px 47px 0 75px;
 }
 
 .pic-info {
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .shop-title {
     text-align: center;
-    margin-top: 230px;
     margin-left: 423px;
+    margin-top: 200px;
 }
 
 .shop-description {
@@ -198,4 +197,13 @@ body {
 }
 .text-2 {
     color: #E55473;
+}
+.underline-1 {
+    margin-left: 150px;
+}
+.underline-2 {
+    padding-left: 450px;
+}
+.underline-3 {
+    padding: 190px;
 }
